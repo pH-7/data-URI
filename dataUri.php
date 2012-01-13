@@ -20,15 +20,18 @@
 					case 'jpg':
 					case 'png':
 						$sMimeType = 'image/'. $sExt;
-						break;
+					break;
+					case 'ico':
+					   $sMimeType = 'image/x-icon';
+					break;
 					case 'eot':
 						$sMimeType = 'application/vnd.ms-fontobject';
-						break;
+					break;
 					case 'otf':
 					case 'ttf':
 					case 'woff':
 						$sMimeType = 'application/octet-stream';
-						break;
+					break;
 				}
 				
       $sBase64 = base64_encode(file_get_contents($sFile));
