@@ -44,11 +44,15 @@
 <head>
 <meta charset="utf-8">
 <title>Data URI PHP function</title>
+<meta name="description" content="Some examples" />
+<meta name="keywords" content="data uri, base64, server query optimization" />
 </head>
 <body>
-<!-- Example -->
+<!-- Examples -->
 
 <?php $sImage = '/home/brussels/Pictures/my-picture.jpg'; ?>
+<?php $sFavicon = '/home/brussels/Desktop/favicon.ico'; ?>
+
 <!-- HTML -->
 <h2>With the IMG Tag
 <p><img src="<?php echo base64DataUri($sImage); ?>" /></p>
@@ -60,5 +64,11 @@
 </style>
 
 <div class="img"></div>
+
+<!-- Icon -->
+
+<h2>With the icon (e.g. favicon.ico)</h2>
+<link rel="icon" type="image/x-icon" href="<?php echo base64DataUri($sFavicon); ?>" /> 
+
 </body>
 </html>
