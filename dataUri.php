@@ -9,6 +9,11 @@
  * @version     $Id: dataUri.php 2012-01-12 pierrehs $
  */
  
+   /**
+   * @desc Data URI Function base64
+   * @param string $sFile
+   * @return string Returns format: data:[<MIME-type>][;base64],<data>
+   */
  function base64DataUri($sFile) {
 
      // Switch to right MIME-type
