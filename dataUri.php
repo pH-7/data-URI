@@ -5,7 +5,7 @@
  * @author      SORIA Pierre-Henry
  * @email       pierrehs@hotmail.com
  * @link        http://github.com/pH-7
- * @license     GNU GPL 3 (http://www.gnu.org/licenses/gpl-3.0.html)
+ * @license     Lesser General Public License (LGPL) (http://www.gnu.org/copyleft/lesser.html)
  * @version     $Id: dataUri.php 2012-01-12 pierrehs $
  */
  
