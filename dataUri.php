@@ -64,7 +64,7 @@ function base64DataUri($sFile)
 
 <!-- HTML -->
 <h2>With the IMG Tag</h2>
-<p><img src="<?php echo base64DataUri($sImage); ?>" /></p>
+<p><img src="<?php echo base64DataUri($sImage); ?>" alt="Image" title="Image encoded in base64" /></p>
 
 <!-- URL -->
 <h2>With a URL address</h2>
